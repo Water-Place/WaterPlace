@@ -1,0 +1,164 @@
+@media screen and (min-width: 600px) {
+    main {
+        background: var(--blue-one);
+        margin-top: -5px;
+        padding-bottom: 6rem;
+        margin-bottom: -2rem;
+    }
+
+    .billet-container {
+        width: 70vw;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    .billet-container h1 {
+        color: white;
+        font-size: 3rem;
+        padding-top: 1.5rem;
+
+        margin: 0 0 0 2rem;
+    }
+
+
+    .billet {
+        padding: 1.7rem;
+        margin: 2rem;
+        border-radius: 0.7rem;
+        background: white;
+
+    }
+
+    .billet-header {
+        display: flex;
+    }
+
+    #wave {
+        margin-top: 5.5rem;
+    }
+
+    .billet h2 {
+        color: var(--blue-one);
+        margin-bottom: 0.5rem;
+
+    }
+
+    .prix {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: var(--blue-two);
+        font-weight: bolder;
+    }
+
+    .billet p {
+        color: black;
+    }
+
+    .billet a {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.4rem 1rem;
+        text-decoration: none;
+        color: white;
+        border: var(--blue-two) solid 0.2rem;
+        background-color: var(--blue-two);
+
+        backdrop-filter: blur(2px);
+        border-radius: 2rem;
+
+        transition: .25s;
+    }
+
+    .billet a:hover {
+        color: var(--blue-two);
+        background-color: white;
+
+    }
+
+    footer {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        background: var(--blue-one);
+        margin-top: -5px;
+        padding-bottom: 6rem;
+        margin-bottom: -2rem;
+    }
+
+    .billet-container {
+        width: 95vw;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    .billet-container h1 {
+        color: white;
+        font-size: 3rem;
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+
+
+    .billet {
+        padding: 1.7rem;
+        margin: 2rem;
+        border-radius: 0.7rem;
+        background: white;
+
+    }
+
+    .billet-header {
+        display: flex;
+    }
+
+    #wave {
+        margin-top: 5.5rem;
+    }
+
+    .billet h2 {
+        color: var(--blue-one);
+        margin-bottom: 0.5rem;
+
+    }
+
+    .prix {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: var(--blue-two);
+        font-weight: bolder;
+    }
+
+    .billet p {
+        color: black;
+    }
+
+    .billet a {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.4rem 1rem;
+        text-decoration: none;
+        color: white;
+        border: var(--blue-two) solid 0.2rem;
+        background-color: var(--blue-two);
+
+        backdrop-filter: blur(2px);
+        border-radius: 2rem;
+
+        transition: .25s;
+    }
+
+    .billet a:hover {
+        color: var(--blue-two);
+        background-color: white;
+
+    }
+
+    footer {
+        padding-bottom: 1.5rem;
+    }
+
+}

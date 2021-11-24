@@ -1,0 +1,136 @@
+@media screen and (min-width: 600px) {
+
+    section {
+        margin: 5rem 0 0 0;
+    }
+
+    .container {
+        margin: -1rem 0 0 0;
+        padding: 2rem 4rem 0 4rem;
+        color: white;
+        background: var(--blue-one);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-bottom: 10rem;
+    }
+
+    .content {
+        width: 40rem;
+    }
+
+    .content>h1 {
+        margin: 2rem 0 2rem 0;
+        font-size: 3rem;
+    }
+
+    .container>img {
+        width: 35rem;
+        border-radius: 41% 59% 59% 41% / 30% 45% 55% 70%;
+    }
+
+    footer {
+        padding-bottom: 1.5rem;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h2 {
+        margin: 2rem 0 .5rem 0;
+    }
+
+    .menu>a {
+        color: var(--blue-two);
+        text-decoration: none;
+        margin: 0rem 1rem 0 0;
+        font-size: 1.25rem;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 2rem;
+        transition: .25s;
+    }
+
+    .menu>a:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    section {
+        margin: 7rem 0 0 0;
+    }
+
+    .container {
+        margin: -1rem 0 0 0;
+        padding: 2rem 1rem 0 1rem;
+        color: white;
+        background: var(--blue-one);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding-bottom: 5rem;
+    }
+
+    .content>h1 {
+        margin: 2rem 0 2rem 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+    }
+
+    .container>img {
+        display: none;
+    }
+
+    footer {
+        padding-bottom: 1.5rem;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        margin: 2rem 0 .5rem 0;
+        text-align: center;
+    }
+
+    .menu>a {
+        color: var(--blue-two);
+        text-decoration: none;
+        margin: 0rem 1rem 0 0;
+        font-size: 1.25rem;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 2rem;
+        transition: .25s;
+
+        margin: 1rem;
+    }
+
+    .menu>a:hover {
+        transform: scale(1.1);
+    }
+
+    p {
+        text-align: center;
+    }
+}
